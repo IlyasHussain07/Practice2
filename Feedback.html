@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wikipedia/Feedback</title>
+        <style>
+            body {
+                margin: 0%;
+                padding: 0%;
+                font-family: sans-serif;
+            }
+            header {
+                background-color: lightgreen;
+                height: 5%;
+                padding: 1px;
+                border: 1px solid black;
+            }
+            #navigation {
+                background-color: lightgreen;
+                height: 10%;
+                border: 1px solid black;
+            }
+            .Button {
+                background-color: lightgreen;
+                border: none;
+                color: black;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .Button:hover {
+                background-color: rgb(38, 175, 38);
+                color: white;
+            }
+            #disable {
+                cursor: not-allowed;
+            }
+            main {
+                display: flex;
+            }
+            nav {
+                border: 2px solid black;
+                
+            }
+            section {
+                margin: 10px 20px;
+            }
+            article {
+                
+            }
+            form {
+                margin-bottom: 405px;
+                
+            }
+            footer {
+                background: lightgreen;
+                height: 5%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Feedback</h2>
+        </header>
+        <div id="navigation">
+            <a href="./Wikipedia.html" target="_default"><p class="Button">Home</p></a>
+            <a href="./Actors.html" target="_default"><p class="Button">Actors</p></a>
+            <a href="./Webseries.html" target="_default"><p class="Button">Web Series</p></a>
+            <a><p class="Button" id="disable">Feedback</p></a>
+            <a href="./Contact.html" target="_default"><p class="Button">Contact</p></a>
+        </div>
+        <main>
+            <nav>
+                <img src="./wiki.png" width="150" height="150">
+            </nav>
+            <section>
+                <articles>
+                    <form action="./action.html">
+                        Feedback:
+                        <br>
+                        <textarea rows="7" cols="35">
+                            
+                        </textarea>
+                        <br>
+                        <button>Submit</button>
+                    </form>
+                </articles>
+
+            </section>
+        </main>
+        <footer>
+            <marquee>Share your Feedback with us.</marquee>
+        </footer>
+    </body>
+</html>
